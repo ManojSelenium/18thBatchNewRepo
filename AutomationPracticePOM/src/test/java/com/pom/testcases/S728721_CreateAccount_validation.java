@@ -26,7 +26,7 @@ public class S728721_CreateAccount_validation extends TestBase {
 		  accountPage=new CreateAccountPage(driver);*/
 	}
 
-	@Test
+	@Test(description="Create Account Test Case")
 	public void createAccountTestCase() {
 		
 		SigninPage signinPage=landingPage.clickSignin();
