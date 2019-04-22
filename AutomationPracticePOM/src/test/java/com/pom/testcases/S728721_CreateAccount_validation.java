@@ -18,6 +18,7 @@ public class S728721_CreateAccount_validation extends TestBase {
 	@BeforeMethod
 	public void launchBrowser() {
 		intilizeDriver();
+		//Entering URL 
 		landingPage=enterURL(AUTOMATION_PRACTICE_URL);
 		/*
 		  landingPage=new LandingPage(driver);
